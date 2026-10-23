@@ -25,6 +25,7 @@ function main() {
       for (const note of notes) {
         console.log(`#${note.id}  ${note.text}`);
       }
+      console.log(`\n(${notes.length} notes total)`);
       break;
     }
     case "search": {
